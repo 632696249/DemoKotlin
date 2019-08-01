@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="你好" />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮" />
+
+    <Button
+        android:id="@+id/btn_click_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="长按钮" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/btn_toast_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="长Toast" />
+
+    <Button
+        android:id="@+id/btn_class_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="构造函数" />
+
+</LinearLayout>
